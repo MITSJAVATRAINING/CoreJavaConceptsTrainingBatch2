@@ -1,11 +1,14 @@
 package inheritanceExamples;
 
-public class Automobile {
+public class Automobile implements AutomobileInterface{
 
 	String automobileName;
 	int noOfDriver;
 	String fuelUsed;
 	String engineName;
+	
+	//IS-A RelationShip
+	// has - A Relationship
 
 	public void setEngine(String engineName) {
 		this.engineName = engineName;
